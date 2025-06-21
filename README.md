@@ -45,7 +45,7 @@ Options (modify in `main.py` or Planner interface):
 
 |             Weighted A\* (ϵ=1)             |             Weighted A\* (ϵ=5)             |                 RRT                 |
 | :----------------------------------------: | :----------------------------------------: | :---------------------------------: |
-| ![astar-1](Result/single_cube_astar1.png) | ![astar-5](Result/single_cube_astar5.png) | ![rrt](Result/single_cube_rrt.png) |
+| ![astar-1]() | ![astar-5](Result/single_cube_astar5.png) | ![rrt](Result/single_cube_rrt.png) |
 
 ### Maze Environment
 
