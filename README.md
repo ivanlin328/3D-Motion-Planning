@@ -82,4 +82,50 @@ Options (modify in `main.py` or Planner interface):
 * **Goal:** compute minimum-cost collision-free path from start to goal
 * **Cost function:** Euclidean arc-length of the path
 
+---
+
+## Quantitative Results
+
+### Table 1: Path Length Comparison
+
+| Environment | A\* (ϵ = 1) | A\* (ϵ = 5) | RRT    |
+| ----------- | ----------- | ----------- | ------ |
+| Single Cube | 8.12        | 9.20        | 10.52  |
+| Maze        | 85.73       | 92.86       | 111.95 |
+| Flappy Bird | 30.74       | 32.00       | 45.41  |
+| Pillars     | 30.41       | 30.70       | 45.37  |
+| Window      | 28.21       | 29.92       | 34.34  |
+| Tower       | 34.87       | 37.82       | 41.80  |
+| Room        | 19.07       | 21.56       | 22.53  |
+
+---
+
+### Table 2: Planning Time Comparison (seconds)
+
+| Environment | A\* (ϵ = 1) | A\* (ϵ = 5) | RRT       |
+| ----------- | ----------- | ----------- | --------- |
+| Single Cube | 0.00210     | 0.00209     | 0.00361   |
+| Maze        | 2.38972     | 2.33748     | 511.83538 |
+| Flappy Bird | 0.29267     | 0.05735     | 1.33716   |
+| Pillars     | 0.85290     | 0.03930     | 1.31746   |
+| Window      | 1.03647     | 0.03092     | 1.33194   |
+| Tower       | 0.52314     | 0.09211     | 2.41289   |
+| Room        | 0.18256     | 0.09472     | 0.08273   |
+
+---
+
+### Table 3: Number of Nodes Considered
+
+| Environment | A\* (ϵ = 1) | A\* (ϵ = 5) | RRT   |
+| ----------- | ----------- | ----------- | ----- |
+| Single Cube | 5           | 5           | 62    |
+| Maze        | 2240        | 2170        | 14757 |
+| Flappy Bird | 411         | 71          | 1290  |
+| Pillars     | 535         | 22          | 1165  |
+| Window      | 930         | 26          | 1429  |
+| Tower       | 474         | 78          | 1442  |
+| Room        | 125         | 66          | 225   |
+
+---
+
 
