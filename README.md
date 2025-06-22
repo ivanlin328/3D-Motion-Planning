@@ -21,7 +21,7 @@ This project implements and compares two classes of motion planners — **Weight
 ## Installation
 
 ```bash
-git clone https://github.com/your_username/3D-Motion-Planning.git
+git clone https://github.com/ivanlin328/3D-Motion-Planning.git
 cd 3D-Motion-Planning
 pip install -r requirements.txt   # (if provided, otherwise standard Python 3.x packages)
 ```
@@ -43,17 +43,36 @@ Options (modify in `main.py` or Planner interface):
 
 ### Pillars Environment
 
-|             Weighted A\* (ϵ=1)             |             Weighted A\* (ϵ=5)             |                 RRT                 |
-| :----------------------------------------: | :----------------------------------------: | :---------------------------------: |
-| ![astar-1](Result/A*-1/Pillars/Pillars_2.png) | ![astar-5](Result/A*-5/Pillars/Pillars_2.png) | ![rrt](Result/single_cube_rrt.png) |
+<table>
+  <tr>
+    <th>Weighted A* (ϵ=1)</th>
+    <th>Weighted A* (ϵ=5)</th>
+    <th>RRT</th>
+  </tr>
+  <tr>
+    <td><img src="Result/A*-1/Pillars/Pillars_2.png" width="300"></td>
+    <td><img src="Result/A*-5/Pillars/Pillars_2.png" width="300"></td>
+    <td><img src="Result/RRT/Pillars/Pillars_2.png" width="300"></td>
+  </tr>
+</table>
 
 ### Maze Environment
 
-|          Weighted A\* (ϵ=1)         |          Weighted A\* (ϵ=5)         |              RRT             |
-| :---------------------------------: | :---------------------------------: | :--------------------------: |
-| ![astar-1](figures/maze_astar1.png) | ![astar-5](figures/maze_astar5.png) | ![rrt](figures/maze_rrt.png) |
+<table>
+  <tr>
+    <th>Weighted A* (ϵ=1)</th>
+    <th>Weighted A* (ϵ=5)</th>
+    <th>RRT</th>
+  </tr>
+  <tr>
+    <td><img src="figures/maze_astar1.png" width="300"></td>
+    <td><img src="figures/maze_astar5.png" width="300"></td>
+    <td><img src="figures/maze_rrt.png" width="300"></td>
+  </tr>
+</table>
 
 *... more examples for Flappy Bird, Pillars, Window, Tower, Room ...*
+
 
 ## Problem Formulation
 
