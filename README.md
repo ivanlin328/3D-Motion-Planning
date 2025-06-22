@@ -65,9 +65,9 @@ Options (modify in `main.py` or Planner interface):
     <th>RRT</th>
   </tr>
   <tr>
-    <td><img src="figures/maze_astar1.png" width="300"></td>
-    <td><img src="figures/maze_astar5.png" width="300"></td>
-    <td><img src="figures/maze_rrt.png" width="300"></td>
+    <td><img src="Result/A*-1/Maze/Maze2.png" width="300"></td>
+    <td><img src="Result/A*-5/Maze/Maze2.png" width="300"></td>
+    <td><img src="Result/RRT/Maze/Maze2.png" width="300"></td>
   </tr>
 </table>
 
